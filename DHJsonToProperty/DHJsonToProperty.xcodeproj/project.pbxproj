@@ -11,16 +11,18 @@
 		410DAAE323712AAC00D257B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410DAAE223712AAC00D257B6 /* ViewController.swift */; };
 		410DAAE523712AAD00D257B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410DAAE423712AAD00D257B6 /* Assets.xcassets */; };
 		410DAAE823712AAD00D257B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410DAAE623712AAD00D257B6 /* Main.storyboard */; };
+		410DAAF123712ADA00D257B6 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410DAAF023712ADA00D257B6 /* Tools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		410DAADD23712AAC00D257B6 /* DHJsonToProperty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHJsonToProperty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		410DAADD23712AAC00D257B6 /* 雨后小工具.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "雨后小工具.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		410DAAE023712AAC00D257B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		410DAAE223712AAC00D257B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		410DAAE423712AAD00D257B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		410DAAE723712AAD00D257B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		410DAAE923712AAD00D257B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		410DAAEA23712AAD00D257B6 /* DHJsonToProperty.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DHJsonToProperty.entitlements; sourceTree = "<group>"; };
+		410DAAF023712ADA00D257B6 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +47,7 @@
 		410DAADE23712AAC00D257B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				410DAADD23712AAC00D257B6 /* DHJsonToProperty.app */,
+				410DAADD23712AAC00D257B6 /* 雨后小工具.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +55,7 @@
 		410DAADF23712AAC00D257B6 /* DHJsonToProperty */ = {
 			isa = PBXGroup;
 			children = (
+				410DAAF023712ADA00D257B6 /* Tools.swift */,
 				410DAAE023712AAC00D257B6 /* AppDelegate.swift */,
 				410DAAE223712AAC00D257B6 /* ViewController.swift */,
 				410DAAE423712AAD00D257B6 /* Assets.xcassets */,
@@ -80,7 +83,7 @@
 			);
 			name = DHJsonToProperty;
 			productName = DHJsonToProperty;
-			productReference = 410DAADD23712AAC00D257B6 /* DHJsonToProperty.app */;
+			productReference = 410DAADD23712AAC00D257B6 /* 雨后小工具.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				410DAAF123712ADA00D257B6 /* Tools.swift in Sources */,
 				410DAAE323712AAC00D257B6 /* ViewController.swift in Sources */,
 				410DAAE123712AAC00D257B6 /* AppDelegate.swift in Sources */,
 			);
@@ -281,7 +285,7 @@
 					"@executable_path/../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.json2Property.DHJsonToProperty;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "雨后小工具";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -300,7 +304,7 @@
 					"@executable_path/../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.json2Property.DHJsonToProperty;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "雨后小工具";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
